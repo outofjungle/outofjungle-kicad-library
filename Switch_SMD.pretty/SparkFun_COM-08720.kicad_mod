@@ -4,7 +4,7 @@
   (tags "Pushbutton Switch COM-08720")
   (attr smd)
   (fp_text reference "REF**" (at 0 -4 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 832c12a6-f553-4f05-8d24-018fa9de24bc)
   )
   (fp_text value "SparkFun_COM-08720" (at 0 4 unlocked) (layer "F.Fab")
