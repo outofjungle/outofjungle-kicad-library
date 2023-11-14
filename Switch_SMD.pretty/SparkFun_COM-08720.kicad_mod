@@ -1,5 +1,7 @@
 (footprint "SparkFun_COM-08720" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
+  (descr "Mini Pushbutton Switch - SMD, https://www.sparkfun.com/products/8720")
+  (tags "Pushbutton Switch COM-08720")
   (attr smd)
   (fp_text reference "REF**" (at 0 -4 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.1)))
