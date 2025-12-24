@@ -1,6 +1,6 @@
 # outofjungle-kicad-library
 
-A custom KiCad component library for M5Stack microcontroller modules and supporting components, designed for IoT and embedded systems projects.
+A custom KiCad component library organized by manufacturer, designed for IoT and embedded systems projects.
 
 ## Components
 
@@ -10,8 +10,8 @@ A custom KiCad component library for M5Stack microcontroller modules and support
 |---------|--------|-------------|
 | M5Stack | M5Atom | Compact ESP32-based module (9 pins) |
 | M5Stack | M5StampS3 | ESP32-S3 stamp module (28 pins) |
-| 74xx_custom | 74HCT125D | Quad buffer with 3-state outputs (SOIC-14) |
-| Switch_SPST | SparkFun_COM-08720 | SMD tactile pushbutton switch |
+| SparkFun | SparkFun_COM-08720 | SMD tactile pushbutton switch |
+| Custom | 74HCT125D | Quad buffer with 3-state outputs (SOIC-14) |
 
 ### Footprint Libraries
 
@@ -19,8 +19,8 @@ A custom KiCad component library for M5Stack microcontroller modules and support
 |---------|-----------|------|-------------|
 | M5Stack_SMD | M5StampS3 | SMD | ESP32-S3 stamp module footprint |
 | M5Stack_THT | M5Atom | Through-hole | M5Atom module pin header footprint |
-| Connector_Custom | BarrelJack_Horizontal_Custom | Through-hole | DC barrel jack power connector |
-| Switch_SMD | SparkFun_COM-08720 | SMD | Tactile pushbutton switch |
+| SparkFun | SparkFun_COM-08720 | SMD | Tactile pushbutton switch |
+| Custom | BarrelJack_Horizontal_Custom | Through-hole | DC barrel jack power connector |
 | Logo | Cat1-Logo_15x8.7mm_SilkScreen | Silkscreen | Decorative logo artwork |
 
 ## Installation
@@ -53,12 +53,12 @@ A custom KiCad component library for M5Stack microcontroller modules and support
 ```
 outofjungle-kicad-library/
 ├── M5Stack.kicad_sym           # M5Stack module symbols
-├── 74xx_custom.kicad_sym       # Custom 74xx logic symbols
-├── Switch_SPST.kicad_sym       # Switch symbols
-├── M5Stack_SMD.pretty/         # SMD footprints for M5Stack
-├── M5Stack_THT.pretty/         # Through-hole footprints for M5Stack
-├── Connector_Custom.pretty/    # Custom connector footprints
-├── Switch_SMD.pretty/          # SMD switch footprints
+├── SparkFun.kicad_sym          # SparkFun component symbols
+├── Custom.kicad_sym            # Generic/custom component symbols
+├── M5Stack_SMD.pretty/         # SMD footprints for M5Stack modules
+├── M5Stack_THT.pretty/         # Through-hole footprints for M5Stack modules
+├── SparkFun.pretty/            # SparkFun component footprints
+├── Custom.pretty/              # Generic/custom component footprints
 └── Logo.pretty/                # Silkscreen logos and artwork
 ```
 
